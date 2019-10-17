@@ -1,11 +1,11 @@
 <nav class="main-nav">
     {% if page.url != "/" %}
-        <a href="{{ "/" | relative_url  }}"> <i class="fa fa-arrow-left"></i> Home </a>
+        <a href="{{ "/" | relative_url  }}"> <i class="fa fa-home"></i> Home </a>
     {% endif %}
 
     {% if page.url != "/about/" %}
         <a href="{{ "/" | relative_url  }}about"><i class="fa fa-cog"></i> About </a>
     {% endif %}
     <a href="{{ "/" | relative_url  }}feed.xml"><i class="fa fa-rss"></i> RSS</a>
-    <a class="cta" href="#"><i class="fa fa-envelope-o"></i> Subscribe </a>
+    <a class="cta" href="#"><i class="fa fa-envelope"></i> Subscribe </a>
 </nav>
